@@ -1,0 +1,598 @@
+<!doctype html>
+
+<html lang="en">
+   
+   
+    <head>
+       
+       
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="robots" content="noodp">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+       
+        <!-- PAGE TITLE -->
+        <title>Oliver - Resume</title>
+       
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+       
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CArapey&amp;subset=latin-ext" rel="stylesheet">
+       
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css?t=1.12">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css?t=1.12">
+        
+        
+    </head>
+
+   
+    <body>
+    
+       
+        <!-- PRELOADER -->
+        <div class="preloader">
+           
+            <div class="spinner"></div>
+            
+        </div>
+        <!-- /PRELOADER -->
+    
+        
+        <!-- IMAGE CONTAINER -->
+        <div class="image-container">
+           
+            <div class="background-img"></div>
+
+        </div>
+        <!-- /IMAGE CONTAINER -->
+
+
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+
+            <!-- CONTENT AREA INNER --> 
+            <div class="content-area-inner">
+
+
+                <!-- INTRO -->
+                <section id="intro">
+
+
+                    <!-- CONTAINER MID -->
+                    <div class="container-mid">
+
+                       
+                        <!-- ANIMATION CONTAINER -->
+                        <div class="animation-container animation-fade-down" data-animation-delay="0">
+                        
+                            <h1>Hello, I'm Oliver Britos</h1>
+                        
+                        </div>
+                        <!-- /ANIMATION CONTAINER -->
+                        
+                        
+                        <!-- ANIMATION CONTAINER -->
+                        <div class="animation-container animation-fade-left" data-animation-delay="300">
+                           
+                            <p class="subline"> An enthusiastic Computer Engineering Major studying at Brigham Young University. 
+                                Currently preparing to shape the future of software and firmware development by 
+                                 gaining experience while working on exciting projects.  </p>
+                            
+                        </div>
+                        <!-- /ANIMATION CONTAINER -->
+                        
+                        
+                        <!-- ANIMATION CONTAINER -->
+                        <div class="animation-container animation-fade-up" data-animation-delay="600">
+                           
+                            <a href="#about" class="smooth-scroll">Learn More<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            
+                        </div>
+                        <!-- /ANIMATION CONTAINER -->
+
+
+                    </div>
+                    <!-- /CONTAINER MID -->
+
+
+                </section>
+                <!-- /INTRO -->
+
+
+                <!-- ABOUT -->
+                <section id="about">
+
+
+                    <h3 class="headline scroll-animated-from-right">About</h3>
+                    
+                    <p class ="scroll-animated-from-rigth">I was born and raised in Asuncion, Paraguay. I have always been an autodidact.
+                         As a child I taught myself multiple subjects showing great interest in math, science, and technology.
+                         When I was six I learned how to play chess by reading a simple cardboard instruction,
+                         and by the time I was 10 I was building sophisticated catapults mechanism in the backyard of my house. 
+                         This motivation in learning new things and the always-improving world of technology is what 
+                         led me to become a Computer Engineer.</p>
+
+                    <p class="scroll-animated-from-right">Thank you for taking the time to know more about me.
+                         If you want to find more about what can I do for you please scroll down</p>
+
+
+                </section>
+                <!-- /ABOUT -->
+                
+                
+                <!-- SERVICE -->
+                <section id="service">
+
+
+                    <h3 class="headline scroll-animated-from-right">What I can do for you.</h3>
+                    
+                    
+                    <!-- SERVICE LIST -->
+                    <ul class="services-list">
+                       
+                       
+                        <li class="scroll-animated-from-right"><i class="fa fa-laptop" aria-hidden="true"></i>Software Development</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-gears" aria-hidden="true"></i>Computer Architecture</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-rocket" aria-hidden="true"></i>Embedded Systems</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-television" aria-hidden="true"></i>Web Design</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-database" aria-hidden="true"></i>UI & UX Design</li>
+                        
+                        
+                    </ul>
+                    <!-- /SERVICE LIST -->
+
+
+                </section>
+                <!-- /SERVICE -->
+                
+                
+                <!-- WORK -->
+                <section id="work">
+
+
+                    <h3 class="headline scroll-animated-from-right">My latest Work.</h3>
+                    
+                    
+                    <!-- SHOWCASE -->
+                    <div class="showcase">
+                       
+                       
+                        <!-- ITEM -->
+                        <div class="item scroll-animated-from-right">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-1-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>Space Invaders.</h5>
+                                        <p>Software Design</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/work/fortground.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-1-lightbox" class="work-lightbox">
+                               <div class = "container-iframe">
+                                <iframe class="responsive-iframe" src="https://youtube.com/embed/Swed1zEGL74"></iframe>
+                               </div>
+                                <!-- <img class="img-responsive" src="assets/img/work/item-1.jpg" alt="image"> -->
+                                
+                                <h3>Space Invaders.</h3>
+                                <p class="subline">Embbeded Systmes</p>
+                                
+                                <p>The aim is to recreate the game Space Invaders on a PYNQ FPGA board by developing a hardware-software interface.
+                                     I used C and Assembly language to design device-driver, monitor-debugger, and real-time kernel.
+                                     I also used C++ for the game portion of the software because of its object-oriented capabilities.
+                                     The game is simple: A ship that shoots bullets to an array of aliens that moves zigzag across the screen until it reaches the bunkers.
+                                     At the end of the game the scores are displayed and the top ten best scores are saved.
+                                     My current stage of development is to write kernel drivers to add sound to the game, and a Programmable Interval Timer</p>
+                                
+                                <h6 class="subline">The outcome and how this can benefit you and me:</h6>
+                                     
+                                <p> I can manage a system design project that interfaces digital hardware components 
+                                    to an embedded system processor. I am also able to read and interpret device specifications 
+                                    (data sheets) in order to integrate a device within a microprocessor based system.
+                                    I can also design and implement a device driver that can be used to interface a device to a microprocessor based system (MAYBE??). 
+
+                                    </p>
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated-from-right">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-2-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>Asimov 71</h5>
+                                        <p>Product Design</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/work/item-2.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-2-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/work/item-2.jpg" alt="image">
+                                
+                                <h3>Asimov 71</h3>
+                                <p class="subline">Product Design</p>
+                                
+                                <p>For this project I developed the game "Fastest Gun Draw" on Zybo Board. 
+                                    The game tries to replicate the famous scene of the Wild West duels. Where the person that
+                                    can draw his gun faster than the other wins the duel. For a more detailed explanation 
+                                    of how the game works see the video.
+                                </p>
+                                
+                                <h6 class="subline">How this can benefit you and me?</h6>
+
+                                <p> Thanks to this project I am now able to do the following:</p>
+                                <dl>
+                                     <dd>Write software that can communicate with hardware peripherals.</dd>
+                                     <dd>Read and interpret device specifications.</dd>
+                                     <dd>Organize software in a complex embedded application.</dd> 
+                                     <dd>Write  efficient interrupt service routines.</dd>
+                                     <dd>Improved software's perfomance.</dd>   
+                                     <dd>Fixed memory issues.</dd>   
+                                </dl>
+                                <p> It is worths to mention that I used C and System Verilog languages
+                                    to design the device-driver and the software.
+                                    
+                                </p>
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated-from-right">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-3-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>Hardley &amp; Sons</h5>
+                                        <p>Design Direction</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/work/item-3.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-3-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/work/item-3.jpg" alt="image">
+                                
+                                <h3>Hardley &amp; Sons</h3>
+                                <p class="subline">Design Direction</p>
+                                
+                                <p>My target was to manufacture a 5 stage, pipelined, MIPS processor with error handling and forwarding.
+                                     In other words, the main brain of the processor. I used a Basys3 FPGA for this project.
+                                     I usefully accomplished my goal and I programed a little game using Assembly language.
+                                     The game itself is simple moves around a character cursor that can change by setting the
+                                     correct binary number. It also prints the character on the display as it moves.</p>
+                                
+                                <h6 class="subline">How this can benefit you and me?</h6>
+
+                                <p>Now I understand how computers execute code and I am more familiar with many of the important
+                                     tradeoffs in the design of computer systems. I can read write simple programs in assembly language.
+                                     I understand how common arithmetic and logic operations are performed by computers.
+                                     I can perform RTL-Level design of datapath and control elements for a pipelined processor.</p>
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                        <!-- ITEM -->
+                        <div class="item scroll-animated-from-right">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-4-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>Starnation</h5>
+                                        <p>UI/UX DESIGN</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/work/item-4.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-4-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/work/item-4.jpg" alt="image">
+                                
+                                <h3>Starnation</h3>
+                                <p class="subline">UI/UX DESIGN</p>
+                                
+                                <p>I worked with a team to construct a complex, multiplayer laser-tag system.
+                                     Like most laser-tag system the main purpose of the game is to shoot laser bean to the
+                                     photodetectors that are on the opponent’s body. The system utilizes a simple optical
+                                     communication link where each player team is assigned a frequency.
+                                     The laser pistol turns the LED on and off at rate assigned, then the target converts
+                                     the received signal into digital signal. The signal then passes through bandpass
+                                     filters and finally a software determines if the target was hit and by which player team.</p>
+
+                                <h6 class="subline">How this can benefit you and me?</h6>
+
+                                <p>I was able to implement my knowledge in analog designs by providing the shot-firing LED,
+                                     shot-detecting photo-diode and associated analog electronics to interface with the FPGA board.
+                                     In addition to this, I provide the signal-processing necessary to detect when a player has
+                                     been shot and also to determine which player was the shooter.
+                                     Further, I reinforce my ability to define, understand, and participate in team decision
+                                     making processes. Finally, in this experience I was able to take high level customer requirements,
+                                     identify from them the specifications a solution must meet, and formulate those specifications as
+                                     an engineering problem.</p>
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+
+
+                        <!-- ITEM -->
+                        <div class="item scroll-animated-from-right">
+                          
+                          
+                            <!-- LIGHTBOX LINK -->
+                            <a href="#" data-featherlight="#item-4-lightbox">
+                            
+                            
+                                <!-- INFO -->
+                                <div class="info">
+
+
+                                    <!-- CONTAINER MID -->
+                                    <div class="container-mid">
+
+                                        <h5>Starnation</h5>
+                                        <p>UI/UX DESIGN</p>
+
+                                    </div>
+                                    <!-- /CONTAINER MID -->
+
+
+                                </div>
+                                <!-- /INFO -->
+
+
+                                <div class="background-image" style="background-image: url(assets/img/work/item-4.jpg)"></div>
+
+                           
+                            </a>
+                            <!-- /LIGHTBOX LINK -->
+                            
+                            
+                            <!-- LIGHTBOX -->
+                            <div id="item-4-lightbox" class="work-lightbox">
+                               
+                               
+                                <img class="img-responsive" src="assets/img/work/item-4.jpg" alt="image">
+                                
+                                <h3>Starnation</h3>
+                                <p class="subline">UI/UX DESIGN</p>
+                                
+                                <p>I worked with a team to construct a complex, multiplayer laser-tag system.
+                                     Like most laser-tag system the main purpose of the game is to shoot laser bean to the
+                                     photodetectors that are on the opponent’s body. The system utilizes a simple optical
+                                     communication link where each player team is assigned a frequency.
+                                     The laser pistol turns the LED on and off at rate assigned, then the target converts
+                                     the received signal into digital signal. The signal then passes through bandpass
+                                     filters and finally a software determines if the target was hit and by which player team.</p>
+
+                                <h6 class="subline">How this can benefit you and me?</h6>
+
+                                <p>I was able to implement my knowledge in analog designs by providing the shot-firing LED,
+                                     shot-detecting photo-diode and associated analog electronics to interface with the FPGA board.
+                                     In addition to this, I provide the signal-processing necessary to detect when a player has
+                                     been shot and also to determine which player was the shooter.
+                                     Further, I reinforce my ability to define, understand, and participate in team decision
+                                     making processes. Finally, in this experience I was able to take high level customer requirements,
+                                     identify from them the specifications a solution must meet, and formulate those specifications as
+                                     an engineering problem.</p>
+                                
+                                
+                            </div>
+                            <!-- /LIGHTBOX -->
+                            
+                            
+                        </div>
+                        <!-- /ITEM -->
+                        
+                        
+                    </div>
+                    <!-- /SHOWCASE -->
+
+
+                </section>
+                <!-- /WORK -->
+                
+                
+                <!-- CONTACT -->
+                <section id="contact">
+
+
+                    <h3 class="headline scroll-animated-from-right">Contact Me.</h3>
+                    
+                    
+                    <!-- CONTACT LIST -->
+                    <ul class="contact-list">
+                       
+                        <li class="scroll-animated-from-right"><i class="fa fa-mobile" aria-hidden="true"></i>01572 115522</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-envelope-o" aria-hidden="true"></i>oliverbritos@mail.com</li>
+                        
+                    </ul>
+                    <!-- /CONTACT LIST -->
+                    
+                    
+                    <!-- CONTACT FORM --> 
+                    <form id="contact-form" action="assets/php/contact.php" method="post">
+
+                       
+                        <input id="contact-form-name" type="text" name="name" class="form-control scroll-animated-from-right" placeholder="* Your Name">
+                        
+                        <input id="contact-form-email" type="text" name="email" class="form-control scroll-animated-from-right" placeholder="* Your Email">
+                        
+                        <!-- PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
+                        <div class="fhp-input"><input id="contact-form-company" type="text" name="company" class="form-control"></div>
+                        <!-- /PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
+                        
+                        <textarea id="contact-form-message" name="message" class="form-control scroll-animated-from-right" placeholder="* Your Message"></textarea>
+                        
+                        <button type="submit" class="form-control scroll-animated-from-right">Send Mail</button>
+                        
+                        <div class="success-message">* The Email was Sent Successfully!</div>
+
+                   
+                    </form>
+                    <!-- /CONTACT FORM --> 
+
+
+                </section>
+                <!-- /CONTACT -->
+                
+                
+                <!-- FOOTER -->
+                <section id="footer">
+                
+                   
+                    <!-- SOCIAL ICONS -->
+                    <ul class="social-icons scroll-animated-from-right">
+                       
+                       
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        
+                        
+                    </ul>
+                    <!-- /SOCIAL ICONS -->
+                    
+
+                    <p class="scroll-animated-from-right">© 2017 Your Brand | Design by <a href="https://templatefoundation.com">Template Foundation</a></p>
+
+
+                </section>
+                <!-- /FOOTER -->
+
+
+            </div>
+            <!-- /CONTENT AREA INNER -->
+
+
+        </div>
+        <!-- /CONTENT AREA -->
+        
+        
+        <!-- JAVASCRIPTS -->
+        <script type="text/javascript" src="assets/js/plugins.js?t=1.12"></script>
+        <script type="text/javascript" src="assets/js/main.js?t=1.12"></script>
+   
+   
+    </body> 
+    
+    
+</html>
